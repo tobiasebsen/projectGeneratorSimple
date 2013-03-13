@@ -26,6 +26,7 @@
 		11EA2C86162238A1002A3882 /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11EA2C7D162238A1002A3882 /* ofxPanel.cpp */; };
 		11EA2C87162238A1002A3882 /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11EA2C7F162238A1002A3882 /* ofxSlider.cpp */; };
 		11EA2C88162238A1002A3882 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 11EA2C81162238A1002A3882 /* ofxToggle.cpp */; };
+		1614112D16F0B31E00D148CB /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 1614111E16F0AED100D148CB /* icon.icns */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -391,11 +392,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "emptyExample" */;
 			buildPhases = (
+				1614112716F0B00200D148CB /* Resources */,
 				E4B69B580A3A1756003C02F2 /* Sources */,
 				E4B69B590A3A1756003C02F2 /* Frameworks */,
 				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
 				E4C2427710CC5ABF004149E2 /* CopyFiles */,
-				1614112716F0B00200D148CB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -453,6 +454,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1614112D16F0B31E00D148CB /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
